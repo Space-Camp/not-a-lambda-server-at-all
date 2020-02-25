@@ -20,5 +20,7 @@ urlpatterns = [
     url('carry', api.carry),
     url('receive', api.receive),
     url('warp', api.warp),
-    url('recall', api.recall)
+    url('recall', api.recall),
+    url('create', api.create_world)
+
 ]
